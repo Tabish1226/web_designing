@@ -1,0 +1,284 @@
+#container{
+	width: 1320px;
+	margin: auto;
+	//box-shadow: 0px 8px 16px 0px rgba(0,0,1,1);
+	//background-color:#FFFFAA;
+	background:url(bg-img.jpg);
+	margin-top:-10px;
+	
+}
+a{
+	text-decoration:none;
+}
+header{
+	width:auto;
+	height:300px;
+	//opacity:0.5;
+	//background-image:URL('Images/Images/6.jpg');
+}
+header img{
+	height:250px;
+	width:50%;
+	float:none;
+	margin-left:25%;
+}header img:hover{
+	opacity:0.9;
+}
+
+#wrapper{
+	width:100%;
+	border-radius:10px;
+}
+
+#wrapper-1{
+	margin-left:40px;
+	font-size:20px;
+}
+.main-heading{
+	font-size:30px;
+	color:red;
+}
+.font-size{
+	font-size:20px;
+	margin-left:20px;
+	font-size:20px;
+	font-family:Comic Sans MS;	
+}
+*{
+	font-family:Comic Sans MS;	
+}
+.docs{
+	margin-left:20px;
+	
+}
+
+#slider{
+	width:100%;
+	height:565px;
+	background-color:white;
+}
+#slider:hover{
+	opacity:0.8;
+}
+.slider{
+	height:600px;
+	width:1310px;
+	margin-left:5px;
+	
+	animation-name:slider;
+	animation-duration:20s;
+	animation-iteration-count:infinite;
+	}
+/*At now only applicable for Google Chrome*/	
+@keyframes slider{
+	0%{background-image:url(Images/slider/1.png);border-radius:0px;}
+	20%{background-image:url(Images/slider/2.jpg);border-radius:40px;}
+	40%{background-image:url(Images/slider/3.jpg);border-radius:60px;}
+	60%{background-image:url(Images/slider/4.jpg);border-radius:40px;}
+	80%{background-image:url(Images/slider/5.jpg);border-radius:20px;}
+	100%{background-image:url(Images/slider/9.jpg);border-radius:0px;}
+	}
+//Form
+form{
+	font-size:25px;
+	width:25%;
+//	margin-left:40%;
+	border-top:20px groove white;
+	border-bottom:20px groove white;
+	border-radius:10px;
+}
+#login_form input{
+	width:250px;
+	height:25px;
+}
+.asterisk{
+	color:orange;
+}
+.note{
+	color:white;
+	float:left;
+}
+.note_box{
+	border:1px solid black;
+	width:250px;
+}
+//form
+#about_us_para{
+	font-size:20px;
+}
+	
+.index_thumb{
+	margin-left:100px;
+	border-radius:10px;
+	}
+#copyright{
+	text-align:center;
+	font-size:22px;
+}
+
+/*Dropdown CSS Here*/
+nav
+{
+	position:fixed;
+	top:-2%;
+	background:#CCC;
+	width:1320px;
+	opacity:0.5;
+}nav:hover{
+	opacity:1;
+	}
+
+nav ul
+{
+	list-style:none;
+	position:relative;
+	float:right;
+//	margin:0;
+//	padding:0;
+}
+
+nav ul a
+{
+	display:block;
+	color:white;
+	text-decoration:none;
+	font-size:16px;
+	font-weight:bold;
+	background:green;
+	//line-height:32px;
+	padding:10px;
+}
+
+nav ul li
+{
+	position:relative;
+	float:left;
+//	margin:0;
+	padding:10px;
+}
+
+
+
+nav ul li:hover
+{
+	background:#f6f6f6;
+}
+
+nav ul ul
+{
+	display:none;
+	position:absolute;
+	//top:100%;
+	left:0;
+	background:#fff;
+	padding:0;
+	z-index:10;
+}
+
+nav ul ul li
+{
+	float:none;
+	width:200px;
+}
+
+nav ul ul a
+{
+	//line-height:120%;
+	padding:10px;
+}
+
+nav ul ul ul
+{
+	top:0;
+	left:100%;
+}
+
+nav ul li:hover > ul
+{
+	display:block;	
+}
+//Dropdown CSS Ends Here
+
+/*LightBox CSS Starting from Here*/
+#policies ul li{
+	display:inline-block;
+	list-style-type:none;
+	width:1240px;
+	margin:auto;
+	}
+#blocks-3 ul li{
+	position:inherit;
+	display:inline-block;
+	list-style-type:none;
+	width:300px;
+	padding:20px;
+	}
+#lightBox1{
+	position:absolute;
+	left:10%;
+	display:none;
+	width:1024px;
+	height:auto;
+	color:white;
+	background-color:#0CF;
+	border:20px groove brown;
+	}
+#lightBox2{	
+	position:absolute;
+	left:140px;
+	display:none;
+	width:1024px;
+	height:auto;
+	color:white;
+	background-color:#0CF;
+	border:20px dashed brown;
+	border-radius:10px;
+	}
+#lightBox3{	
+	position:absolute;
+	left:140px;
+	display:none;
+	width:1024px;
+	height:auto;
+	color:white;
+	background-color:#0CF;
+	border:20px groove brown;
+	}		
+#lightBoxBg{
+	position:absolute;
+	height:1240px;
+	width:1320px;
+	display:none;
+	margin-left:-40px;
+	margin-top:-400px;
+	background-color:black;
+	opacity:0.5;
+}
+.lb-btn{
+	width:300px;
+	height:50px;
+	background:green;
+	cursor:pointer;
+	color:white;
+	font-size:16px;
+	opacity:0.5;
+	}
+.lb-btn:hover{
+	border:10px groove white;
+	opacity:1;
+	}	
+/*LightBox CSS Ending Here*/
+#top-btn{	
+	width:100px;
+	height:50px;
+	background:green;
+	cursor:pointer;
+	color:white;
+	font-size:16px;
+	}
+#top-btn a{
+	color:white;
+}
+#top-btn a:hover{
+	text-decoration:overline;
+	}
